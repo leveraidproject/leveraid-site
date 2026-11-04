@@ -14,9 +14,8 @@ main.js         Mobile menu and footer year
 
 Replace these placeholders in `index.html`:
 
-1. `YOUR-EMAIL@example.com` (appears in Careers and Contact): your business email.
-2. `https://formspree.io/f/YOUR_FORM_ID`: your form endpoint. Create a free form at [formspree.io](https://formspree.io) and paste its URL.
-3. Logo: the header uses an SVG mark. To use your own logo, add it to an `assets/` folder and swap the `<svg class="brand-mark">` block for an `<img>` tag.
+1. `YOUR-EMAIL@example.com` (4 places: the Careers button, the Contact list link and text, and the form's `data-email`): your business email. The contact form opens the visitor's email app with their message addressed to this email.
+2. Logo: the header uses an SVG mark. To use your own logo, add it to an `assets/` folder and swap the `<svg class="brand-mark">` block for an `<img>` tag.
 
 ## Run locally
 

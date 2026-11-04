@@ -243,12 +243,11 @@
           </p>
         </div>
 
-        <!-- Replace the action with your own form endpoint (Formspree, Getform, etc.) -->
-        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="form" id="contact-form" data-email="YOUR-EMAIL@example.com">
           <label for="name">Name</label>
           <input id="name" name="name" type="text" autocomplete="name" required>
 
-          <label for="email">Email</label>
+          <label for="email">Your email</label>
           <input id="email" name="email" type="email" autocomplete="email" required>
 
           <label for="need">I'm looking to</label>
@@ -262,6 +261,7 @@
           <textarea id="message" name="message" rows="5" required></textarea>
 
           <button class="btn btn-primary" type="submit">Schedule appointment</button>
+          <p class="form-note" id="form-note" role="status">Clicking the button opens your email app with your message ready to send to us.</p>
         </form>
       </div>
     </section>
